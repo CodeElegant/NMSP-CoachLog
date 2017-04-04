@@ -1,0 +1,26 @@
+@import url(foundation.min.css);
+.vertical-center {
+  min-height: 14px;
+  margin-top: 8px;
+  margin-bottom: 7px; }
+
+.bottom {
+  position: fixed;
+  bottom: 5px;
+  width: 100%;
+  right: 0;
+  left: 0; }
+
+.glow img:hover {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  transition: all 0.3s ease-in;
+  box-shadow: 0 0 10px 0 rgba(0, 255, 0, 0.67); }
+
+.bottom-border {
+  border-bottom: 1px solid #466d98;
+  border-right: 1px solid #466d98; }
+
+.shadow {
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); }
